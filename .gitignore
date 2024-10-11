@@ -1,0 +1,10 @@
+# Ignore build artifacts for all Rust projects
+**/target/
+**/debug/
+**/release/
+
+# Ignore dependency directories (if using Cargo workspaces)
+**/Cargo.lock
+
+# IDE and editor-specific files (optional)
+**/.vscode/
